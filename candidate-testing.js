@@ -27,6 +27,9 @@ function askQuestion() {
     if(typeof(val) === 'string'){
       val = val.toLowerCase();
     }
+    if(val === 'true'){
+      val = true;
+    }
     
 
 
